@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bubble Waltz - Data Visualization
-permalink: /apps/bubllewaltz/
+permalink: /apps/bubblewaltz/
 ---
 
 ### [Bubble waltz](/apps/bubblewaltz/)
