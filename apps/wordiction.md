@@ -4,10 +4,6 @@ title: Wordiction - App
 permalink: /apps/wordiction/
 ---
 
-### [Wordiction](/apps/wordiction/)
-
-**Text typing prediction app**
-
 <iframe src="https://sasha.shinyapps.io/Wordiction/" height="900" width="720"></iframe>
 
 Wordiction is a text prediction app that predicts the next word to be typed in, 
