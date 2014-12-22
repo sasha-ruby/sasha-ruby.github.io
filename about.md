@@ -12,4 +12,4 @@ For the last 5 years I've been working in the iGaming industry with some of the 
 
 ### Contact me
 
-Get in touch on Twitter ![@s_bogdanovic](https://twitter.com/s_bogdanovic)
+Get in touch on Twitter [@s_bogdanovic](https://twitter.com/s_bogdanovic)
