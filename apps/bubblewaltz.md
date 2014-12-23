@@ -4,7 +4,7 @@ title: Bubble Waltz - Data Visualization
 permalink: /apps/bubblewaltz/
 ---
 
-<iframe src="http://opendata.rubyind.com:3838/opendata/" height="597" width="990"></iframe>
+<iframe src="http://opendata.rubyind.com:3838/opendata/" height="597" width="1260"></iframe>
 
 Longevity in Canadian Provinces by Health Expenditure" motion chart visualization makes use 
 of [Canadian Government Open Data](http://data.gc.ca/eng) initiative.

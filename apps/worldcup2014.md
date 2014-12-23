@@ -4,7 +4,7 @@ title: World Cup 2014 - Team and player stats
 permalink: /apps/worldcup2014/
 ---
 
-<iframe src="http://sasha.shinyapps.io/worldcup2014" height="900" width="720"></iframe>
+<iframe src="http://sasha.shinyapps.io/worldcup2014" height="900" width="1260"></iframe>
 
 World Cup 2014 is the tabular representation of detailed team and player stats during 
 soccer World Cup 2014 held in Brazil.
