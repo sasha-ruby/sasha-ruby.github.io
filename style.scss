@@ -238,6 +238,10 @@ nav {
 .sidebar {
     width: 25%;
     float: right;
+    font-size: 0.8em;
+    ul {
+        list-style-type: none;
+    }
 }
 .post { 
   width: 70%;

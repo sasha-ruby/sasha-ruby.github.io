@@ -19,7 +19,7 @@ layout: default
     <ul>
         {% for post in site.posts %}
           <li>
-              **<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>** - {{ post.content | truncatewords:20}}
+              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> - {{ post.content | truncatewords:20}}
           </li>
         {% endfor %}
     </ul>
