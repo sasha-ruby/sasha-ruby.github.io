@@ -236,7 +236,7 @@ nav {
 // .main
 //
 .sidebar {
-    width: 25%;
+    width: 35%;
     float: right;
     font-size: 0.8em;
     ul {
@@ -244,7 +244,7 @@ nav {
     }
 }
 .post { 
-  width: 70%;
+  width: 60%;
   float: left;
   blockquote {
     margin: 1.8em .8em;
@@ -277,7 +277,6 @@ nav {
 }
 
 .wrapper-footer {
-    float: left;
     clear: both;
   margin-top: 50px;
   border-top: 1px solid #ddd;

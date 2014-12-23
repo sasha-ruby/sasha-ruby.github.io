@@ -16,10 +16,11 @@ layout: default
   {% include disqus.html disqus_identifier=page.disqus_identifier %}
 </article>
 <aside class="sidebar">
+    <h2>Recent Posts</h2>
     <ul>
         {% for post in site.posts %}
           <li>
-              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> - {{ post.content | truncatewords:20}}
+              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
           </li>
         {% endfor %}
     </ul>
