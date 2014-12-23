@@ -108,11 +108,13 @@ strong, b {
 
 img {
     max-width: 100%;
-    box-shadow: 2px 2px 2px #696969;
+    box-shadow: 2px 2px 5px 5px #c0c0c0;
+    border-radius: 3px;
 }
 
 iframe {
-    box-shadow: 2px 2px 2px #696969;
+    box-shadow: 2px 2px 5px 5px #c0c0c0;
+    border-radius: 3px;
 }
 
 .date {
