@@ -235,18 +235,13 @@ nav {
 //
 // .main
 //
-
-.posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+.sidebar {
+    width: 25%;
+    float: right;
 }
-
-.posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
-}
-
 .post { 
+  width: 70%;
+  float: left;
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
@@ -264,6 +259,17 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
   }
+}
+
+.posts > .post {
+  width: 100%;
+  padding-bottom: 2em;
+  border-bottom: 1px solid $lightGray;
+}
+
+.posts > .post:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
 }
 
 .wrapper-footer {
