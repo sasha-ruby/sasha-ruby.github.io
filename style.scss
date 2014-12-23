@@ -249,6 +249,11 @@ nav {
             margin: 0.35em 0;
         }
     }
+    
+    @include mobile {
+        width: 100%;
+    }
+
 }
 .post { 
   width: 60%;
@@ -269,6 +274,10 @@ nav {
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
+  }
+  
+  @include mobile {
+      width: 100%;
   }
 }
 
