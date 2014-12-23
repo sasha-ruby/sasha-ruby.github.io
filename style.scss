@@ -117,6 +117,10 @@ iframe {
     border-radius: 3px;
 }
 
+.comments iframe {
+    box-shadow: none;
+}
+
 .date {
     font-style: italic;
     font-size: 0.7em;
