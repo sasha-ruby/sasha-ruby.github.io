@@ -14,4 +14,4 @@ According to preliminary results (just received wrapup email from instructors):
 
 > ...Since April, the specialization has accumulated more than 2.3 million enrollments and issued more than 68,000 verified certificates. More than 800 participants joined this capstone session, and it looks like nearly 500 will earn the specialization certificate this time around...
 
-Now it will take some time for the instructors and Coursera teams to calculate final grades and issue certificates. So looking forward to getting to know the results, and hopefully be one of those 500 obtaining the specialization certificate at this inaugural class.
+Now it will take some time for the instructors and Coursera teams to calculate final grades and issue certificates. So looking forward to getting to know the results, and hopefully be one of those 500 obtaining the specialization certificate of this inaugural class.
