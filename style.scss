@@ -236,7 +236,7 @@ nav {
 // .main
 //
 .sidebar {
-    width: 35%;
+    width: 30%;
     float: right;
     font-size: 0.8em;
     h2 {
@@ -244,6 +244,10 @@ nav {
     }
     ul {
         list-style-type: none;
+        padding-left: 0;
+        li {
+            margin: 0.35em 0;
+        }
     }
 }
 .post { 
