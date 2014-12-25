@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Chief Data Analyst and Data Scientist at Ruby Industries Inc. 
+Chief Data Analyst and Data Scientist at [Ruby Industries Inc.](http://www.rubyind.com/)
 
 ### More Information
 
-For the last 5 years I've been working in the iGaming industry with some of the major brands, helping iGaming their affiliate programs increase their revenues. I developed a number of data products and data integration solutions to help businesses gain actionable insights.
+For the last 6 years I've been working in the iGaming industry with some of the major brands, helping iGaming businesses and their affiliate programs increase their revenues. I developed a number of data products and data integration solutions to help them gain actionable insights.
 
 ### Contact me
 

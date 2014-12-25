@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: fullwidth
 title: Bubble Waltz - Data Visualization
 permalink: /apps/bubblewaltz/
+thumbnailurl: /images/bubblewaltz_th.png
 ---
 
 <iframe src="http://opendata.rubyind.com:3838/opendata/" height="597" width="1260"></iframe>

@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: fullwidth
 title: World Cup 2014 - Team and player stats
 permalink: /apps/worldcup2014/
+thumbnailurl: /images/worldcup_th.png
 ---
 
 <iframe src="http://sasha.shinyapps.io/worldcup2014" height="900" width="1260"></iframe>

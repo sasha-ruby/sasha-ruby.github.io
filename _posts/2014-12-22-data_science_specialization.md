@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Coursera Data Science Specialization
+thumbnailurl: /images/certificate_th.png
 published: true
 ---
 

@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: fullwidth
 title: Wordiction - App
 permalink: /apps/wordiction/
+thumbnailurl: /images/wordiction_th.png
 ---
 
 <iframe src="https://sasha.shinyapps.io/Wordiction/" height="600" width="768"></iframe>

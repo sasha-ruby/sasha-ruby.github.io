@@ -6,13 +6,28 @@ layout: default
   {% for post in site.posts %}
     <article class="post">    
       
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
       <div class="entry">
-        {{ post.content | truncatewords:40}}
+        <img src="{{ post.thumbnailurl }}" style="float: left; margin: 0 40px 20px 0;" />
+        {{ post.content | truncatewords:50}}
       </div>
       
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
 </div>
+<aside class="sidebar">
+    <h2>Recent Posts</h2>
+    <ul>
+        {% for post in site.posts %}
+          <li>
+              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+    </ul>
+    
+    <h2>Twitter feed</h2>
+    <a class="twitter-timeline" href="https://twitter.com/s_bogdanovic" data-widget-id="547205779875315713">Tweets by @s_bogdanovic</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</aside>
