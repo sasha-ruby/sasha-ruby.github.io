@@ -25,7 +25,7 @@ deployed on [Shiny server](http://shiny.rstudio.com/). Just click the play butto
 
 Shiny app code is available on [GitHub](https://github.com/sasha-ruby/healthexp).
 
-The app has also been listed in on [Goverment of Canada Open Data portal Apps Gallery](http://open.canada.ca/en/apps/life-expectancy-canadian-provinces-health-expenditure).
+The app has also been listed in [Goverment of Canada Open Data portal Apps Gallery](http://open.canada.ca/en/apps/life-expectancy-canadian-provinces-health-expenditure).
 
 ## Data source
 
