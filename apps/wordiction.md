@@ -3,14 +3,15 @@ layout: fullwidth
 title: Wordiction - App
 permalink: /apps/wordiction/
 thumbnailurl: /images/wordiction_th.png
+sitemap:
+    priority: 0.7
+    changefreq: 'monthly'
+    lastmod: 2015-01-09T12:49:30-05:00
 ---
 
-<iframe src="https://sasha.shinyapps.io/Wordiction/" height="600" width="768"></iframe>
+<iframe src="https://sasha.shinyapps.io/Wordiction/" height="600" width="100%"></iframe>
 
-Wordiction is a text prediction app that predicts the next word to be typed in, 
-based on previous text. It is developed in the scope of the Capstone Project for Coursera / John Hopkins Data Science Specialization.
+Wordiction is a text prediction app that predicts the next word to be typed in, based on previous text. 
+I developed the app in the scope of Capstone Project for Coursera / John Hopkins Data Science Specialization.
 
-It suggests three words most likely to be the next in the given context.
-
-Prediction is based on corpus provided in Coursera Data Science Specialization 
-Capstone project, which consists of texts extracted from extracts from Twitter, news and blog websites.
+Read more about [Wordiction the text prediction app](/wordiction) in a blog post.

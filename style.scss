@@ -20,6 +20,7 @@ html {
 body {
     background: $white;
     font: 18px/1.4 $helvetica;
+    font-weight: 200;
     color: $darkGray;
 }
 
@@ -33,9 +34,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: $helveticaNeue;
     color: $darkerGray;
-    font-weight: bold;
+    font-weight: bolder;
 
-    line-height: 1.7;
+    line-height: 1.5;
     margin: 1em 0 15px;
     padding: 0;
     
@@ -112,8 +113,12 @@ strong, b {
 
 img {
     max-width: 100%;
-    box-shadow: 2px 2px 5px 5px #c0c0c0;
-    border-radius: 3px;
+}
+
+.iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
 }
 
 iframe {
@@ -121,10 +126,30 @@ iframe {
     border-radius: 3px;
 }
 
-.date {
-    font-style: italic;
+.iframe-container iframe,
+.iframe-container object,
+.iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+iframe.contactform {
+    box-shadow: none;
+}
+
+.meta {
+    margin-bottom: 1em;
     font-size: 0.7em;
+    font-style: italic;
     color: $gray;
+    .date {
+    }
+    .categories, .tags {
+        margin-right: 2em;
+    }
 }
 
 // Specify the color of the selection
@@ -133,8 +158,8 @@ iframe {
     background: $lightGray;
 }
 ::selection {
-    color: $black;
-    background: $lightGray;
+    color: $white;
+    background: $darkGray;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -259,6 +284,51 @@ nav {
         list-style-type: none;
         padding-left: 0;
         li {
+            margin: 0.7em 0;
+        }
+    }
+
+    @include tablet {
+        width: 90%;
+        float: none;
+        margin: 0 auto;
+    }
+
+    @include mobile {
+        width: 90%;
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+.sidebar-section {
+    padding: 0.2em 2em 2em;
+}
+
+#sidebar-about {
+    background: #f6f6f6;
+    border-radius: 6px;
+}
+
+.bottombar {
+    width: 100%;
+    float: left;
+    margin-top: 3em;
+    font-size: 0.8em;
+    
+    .sidebar-section {
+        width: 30%;
+        float: left;
+        margin-right: 3%;
+    }
+    
+    h2 {
+        margin-top: 1.25em;
+    }
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+        li {
             margin: 0.35em 0;
         }
     }
@@ -274,9 +344,9 @@ nav {
         float: none;
         margin: 0 auto;
     }
-
 }
-.posts, .post, .page {
+
+.posts, .post, .page, .fullwidth-page {
     width: 60%;
     float: left;
     margin-left: 2.5%;
@@ -287,6 +357,16 @@ nav {
         color: $gray;
         font-size: 22px;
         font-style: italic;
+    }
+    
+    ul {
+        margin: 1.5em 0;
+        list-style-type: none;
+    }
+
+    ul li {
+        font-size: 0.85em;
+        margin: 0.5em 0;
     }
 
     .comments {
@@ -301,10 +381,10 @@ nav {
         font-size: 0.85em;
     }
     
-    .read-more::after {
+    .read-more:after {
         padding-left: 0.5em;
         font-family: "FontAwesome";
-        content: "xf152";
+        /*content: "f152";*/
     }
 
     @include tablet {
@@ -321,10 +401,29 @@ nav {
     }
 }
 
+.fullwidth-page {
+    width: 100%;
+}
+
 .posts > .post {
     width: 100%;
     padding-bottom: 2em;
     border-bottom: 1px solid $lightGray;
+    
+    .th-container {
+        float: left;
+        width: 250px;
+        height: 250px;
+        margin: 0 40px 20px 0;
+        box-shadow: 2px 2px 5px 5px #c0c0c0;
+        border-radius: 3px;
+        line-height: 250px;
+    }
+    
+    .th {
+        display: inline-block;
+        vertical-align: middle;
+    }
 }
 
 .posts > .post:last-child {
@@ -347,3 +446,19 @@ footer {
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "_highlights";
+
+/* some custom syntax highlighting */ 
+.highlight .lineno { 
+    color: #ccc; 
+    display:inline-block; 
+    padding: 0 5px; 
+    border-right:1px solid #ccc; 
+}
+
+.highlight pre code { 
+    display: block; 
+    white-space: pre; 
+    overflow-x: auto; 
+    word-wrap: normal; 
+}
+

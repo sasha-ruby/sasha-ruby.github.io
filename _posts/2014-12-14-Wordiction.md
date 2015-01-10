@@ -2,6 +2,8 @@
 layout: post
 title: Wordiction - text prediction app
 thumbnailurl: /images/wordiction_th.png
+category: articles
+tags: [R, shiny, datamining]
 published: true
 ---
 

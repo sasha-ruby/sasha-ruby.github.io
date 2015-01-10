@@ -6,7 +6,7 @@
 name: Sasa Bogdanovic
 
 # Short bio or description (displayed in the header)
-description: Data Scientist at Ruby Industries Inc.
+description: Data Science Consultant
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars1.githubusercontent.com/u/3877631?v=3&s=460
@@ -15,10 +15,20 @@ avatar: https://avatars1.githubusercontent.com/u/3877631?v=3&s=460
 # Flags below are optional
 #
 
+# If you're hosting your site at a Project repository on GitHub pages 
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+baseurl: "http://sasabogdanovic.com"
+
+# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Used for Sitemap.xml and your RSS feed
+url: http://sasabogdanovic.com
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble: 
-  email: 
+  email: sasha@rubyind.com
   facebook: 
   flickr: 
   linkedin: sashabogdanovic
@@ -26,7 +36,7 @@ footer-links:
   twitter: s_bogdanovic
   instagram: 
   pinterest: 
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  rss: atom.xml
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 
 # Your disqus shortname, entering this will enable commenting on posts
@@ -34,16 +44,6 @@ disqus: sasabogdanovic
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-1350102-38
-
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url: http://sasabogdanovic.com
-
-# If you're hosting your site at a Project repository on GitHub pages 
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
 
 #
 # !! You don't need to change any of the configuration flags below !!

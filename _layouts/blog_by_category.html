@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+        
+<div class="posts">
+    <h1>Articles by category: {{ page.category }}</h1>
+        {% if site.categories[page.category] %}
+            {% for post in site.categories[page.category] %}
+                <article class="post">    
+
+                    <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+
+                    <div class="entry">
+                        <img src="{{ post.thumbnailurl }}" style="float: left; margin: 0 40px 20px 0;" />
+                        {{ post.content | truncatewords:50}}
+                    </div>
+
+                    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"><i class="fa fa-plus-square-o"></i> Read More</a>
+                </article>
+            {% endfor %}
+        {% else %}
+            <p>There are no posts in this category.</p>
+        {% endif %}
+</div>
+
+{% include sidebar.html %}

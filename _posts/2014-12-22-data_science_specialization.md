@@ -2,6 +2,8 @@
 layout: post
 title: Coursera Data Science Specialization
 thumbnailurl: /images/certificate_th.png
+category: news
+tags: [R, data-science]
 published: true
 ---
 

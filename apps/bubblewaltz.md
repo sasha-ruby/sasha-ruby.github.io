@@ -3,16 +3,16 @@ layout: fullwidth
 title: Bubble Waltz - Data Visualization
 permalink: /apps/bubblewaltz/
 thumbnailurl: /images/bubblewaltz_th.png
+sitemap:
+    priority: 0.7
+    changefreq: 'monthly'
+    lastmod: 2015-01-09T12:49:30-05:00
 ---
 
-<iframe src="http://opendata.rubyind.com:3838/opendata/" height="597" width="1260"></iframe>
+<iframe src="http://opendata.rubyind.com:3838/opendata/" height="597" width="100%"></iframe>
 
-Longevity in Canadian Provinces by Health Expenditure" motion chart visualization makes use 
-of [Canadian Government Open Data](http://data.gc.ca/eng) initiative.
+"Life expectancy in Canadian Provinces by Health Expenditure" motion chart visualization realized using 
+[Google charts bindings for Shiny](https://github.com/jcheng5/googleCharts) and 
+datasets publicly available at [Canadian Government Open Data portal](http://data.gc.ca/eng).
 
-The data is combined from the following data tables to correlate life expectancy, health expenditure and population by Province:
-
-- [Table 051-0001](http://data.gc.ca/data/en/dataset/b6b9c9e7-bd58-4b2f-8a7a-97bf370a4880) - Estimates of population, by age group and sex for July 1, Canada, provinces and territories annual (persons)
-- [Table 102-0511](http://data.gc.ca/data/en/dataset/d33eca94-b40d-4d68-8027-842b56feb130) - Life expectancy, abridged life table, at birth and at age 65, by sex, Canada, provinces and territories, *Terminated* annual (years)
-- [Table 384-0041](http://data.gc.ca/data/en/dataset/43d39e2b-63dc-499d-8e90-be3928374233) - Detailed household final consumption expenditure, provincial and territorial annual (dollars x 1,000,000)
-
+Read more on [Google charts bindings for Shiny](/life-expectancy-in-Canada-by-province-and-health-expenditure) blog post.

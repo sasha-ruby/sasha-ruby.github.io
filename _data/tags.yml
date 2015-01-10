@@ -1,0 +1,15 @@
+- slug: R
+  name: R
+
+- slug: shiny
+  name: Shiny server
+
+- slug: datavis
+  name: Data visualizations
+
+- slug: datamining
+  name: Data mining
+
+- slug: data-science
+  name: Data science
+

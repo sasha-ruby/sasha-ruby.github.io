@@ -1,0 +1,11 @@
+- slug: news
+  name: News
+  color: '#3498db'
+  
+- slug: articles
+  name: Articles
+  color: '#3498db'
+  
+- slug: apps
+  name: Apps
+  color: '#1abc9c'

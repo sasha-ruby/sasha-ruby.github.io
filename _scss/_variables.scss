@@ -17,9 +17,11 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
+$calibri: Calibri, Helvetica, Arial, sans-serif;
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
+$palatino: 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
 
 // Mobile breakpoints
 @mixin mobile {
