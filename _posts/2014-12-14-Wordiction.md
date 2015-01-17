@@ -3,8 +3,9 @@ layout: post
 title: Wordiction - text prediction app
 thumbnailurl: /images/wordiction_th.png
 category: articles
-tags: [R, shiny, datamining]
+tags: [Rstats, shiny, datamining]
 published: true
+shortUrl: http://bit.ly/14g7UeB
 ---
 
 Wordiction is a text prediction app that predicts the next word to be typed in, based on previous text. It is developed in the scope of the Capstone Project for Coursera / John Hopkins Data Science Specialization.

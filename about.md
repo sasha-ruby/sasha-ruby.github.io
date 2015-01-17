@@ -35,5 +35,5 @@ If your business needs help with data related projects, feel free to rouch out t
 - [Commission Lounge](http://www.commissionlounge.com) - Affiliate program for Betsson, CasinoEuro, Betsafe facing Turkish market.
 - [ChipSplit](http://www.chipsplit.com) - Affiliate program for Carbon family of brands
 - [PafPartners](http://www.pafpartners.com) - Affiliate program for Paf
-- [PlayHippo](http://www.pafpartners.com) - Affiliate program for Paf
+- [PlayHippo](http://www.playhippo.com) - Affiliate program for PlayHippo
 - ...

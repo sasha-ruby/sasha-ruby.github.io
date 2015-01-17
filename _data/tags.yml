@@ -1,10 +1,10 @@
-- slug: R
-  name: R
+- slug: Rstats
+  name: Rstats
 
 - slug: shiny
   name: Shiny server
 
-- slug: datavis
+- slug: dataviz
   name: Data visualizations
 
 - slug: datamining

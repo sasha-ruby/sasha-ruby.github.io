@@ -11,7 +11,7 @@ sitemap:
 
 <div class="posts">
     <article class="post">    
-        <p>These are some of the data products I developed recently. They're all open-sourced, and available on [GitHub](https://github.com/sasha-ruby).</p>
+        <p>These are some of the data products I developed recently. They're all open-sourced, and available on <a href="https://github.com/sasha-ruby">GitHub</a>.</p>
     </article>
     <article class="post">    
       

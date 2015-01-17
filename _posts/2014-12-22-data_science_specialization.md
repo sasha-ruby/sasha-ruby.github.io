@@ -3,8 +3,9 @@ layout: post
 title: Coursera Data Science Specialization
 thumbnailurl: /images/certificate_th.png
 category: news
-tags: [R, data-science]
+tags: [Rstats, data-science]
 published: true
+shortUrl: http://bit.ly/1y17uGQ
 ---
 
 Since April 2014 I've been taking part in [Data Science Specialization](https://www.coursera.org/specialization/jhudatascience/1 "Data Science Specialization"), put together by Coursera and Johns Hopkins University.

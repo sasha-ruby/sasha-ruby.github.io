@@ -21,7 +21,13 @@ layout: default
 
 {% if page.tags.size > 0 %}
     {% capture tags_content %} {% if page.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %} {% endcapture %}
+    {% assign tagStr = '' %}
     {% for post_tag in page.tags %}
+        {% if tagStr == '' %}
+            {% capture tagStr %}{{ post_tag }}{% endcapture %}
+        {% else %}
+            {% capture tagStr %}{{ tagStr }},{{ post_tag }}{% endcapture %}
+        {% endif %}
         {% for data_tag in site.data.tags %}
             {% if data_tag.slug == post_tag %}
                 {% assign tag = data_tag %}
@@ -36,6 +42,12 @@ layout: default
     {% assign tags_content = '' %}
 {% endif %}
 
+{% capture url %}{{ site.url }}{{ page.url }}{% endcapture %}
+{% if page.shortUrl != null %}
+    {% assign url = page.shortUrl %}
+{% endif %}
+
+
 <article class="post">
     <h1>{{ page.title }}</h1>
 
@@ -48,9 +60,10 @@ layout: default
         </div>
 
         {{ content }}
-      
-        <div class="meta">
-            <span class="categories">{{ categories_content }}</span><span class="tags">{{ tags_content }}</span>
+
+        <div class="social">
+            <a class="social-element" id="social-twitter" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ url }}&via=s_bogdanovic&hashtags={{ tagStr }}" target="_blank" title="Share this post on Twitter"><i class="fa fa-twitter"></i> tweet this post</a>
+            <a class="social-element" id="social-linkedin" href="http://www.linkedin.com/shareArticle?mini=true&title={{ page.title }}&url={{ url }}&source=http%3a%2f%2fzhangwenli.com" target="_blank" title="Share this post on LinkedIn"><i class="fa fa-linkedin"></i> share on LinkedIn</a>
         </div>
     </div>
 

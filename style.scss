@@ -431,6 +431,30 @@ nav {
     border-bottom: none;
 }
 
+.social {
+    
+}
+
+.social-element {
+    margin-right: 2em;
+    background-color: $blue;
+    color: #fff;
+    font-size: 0.7em;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    
+    i {
+        font-size: 1.2em;
+        margin-right: 0.5em;
+    }
+}
+
+a.social-element:hover {
+    border: none;
+    text-decoration: none;
+    color: $lightGray;
+}
+
 .wrapper-footer {
     clear: both;
     border-top: 50px solid #fff;
