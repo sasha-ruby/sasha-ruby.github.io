@@ -8,20 +8,38 @@ sitemap:
     lastmod: 2015-01-09T12:49:30-05:00
 ---
 
-Co-founder, CEO and Data Science Consultant at [Ruby Industries Inc.](http://www.rubyind.com/).
+Co-founder, CTO and Data Scientist at [Ruby Industries Inc.](http://www.rubyind.com/).
 
 ### More Information
 
 For the last 6 years I've been working in the iGaming industry with some of the major brands,
-helping iGaming businesses and their affiliate programs increase their revenues by making smarter, data-driven decisions. 
+helping iGaming businesses and their affiliate programs make better, data-driven decisions.
 
 I developed a number of data products, data integration solutions and intelligence reports to help them draw actionable insights from their data.
 
-I am especially proud of [Datapark - Business Intelligence reporting application](http://www.rubyind.com/datapark).
+I am the architect and lead developer of [Datapark - Business Intelligence reporting application](http://www.rubyind.com/datapark),
+which sort of summarizes my full-stack technical skills and experience:
+
+- Unix / Linux scripting and system administration
+- Front- and backend web development (HTML5, CSS3, JavaScript, jQuery, PHP, XML, JSON)
+- Database development and data modeling (MySQL, MS SQL Server, Oracle, SSRS, SSAS, MDX)
+- Data Warehouse architecture and modeling
+- Business Intelligence ETL and reporting
+- Statistical data processing - Data Science pipeline
+   + Getting and cleaning data
+   + R Programming
+   + Exploratory data analysis
+   + Statistical inference
+   + Regression models
+   + Machine learning
+   + Data mining
+   + Natural language processing
+
+
 
 ### Contact me
 
-If your business needs help with data related projects, feel free to rouch out to me through:
+If your business needs help with data related projects I'd be happy to hear from you. Feel free to rouch out through:
 
 - <i class="fa fa-envelope-o"></i> [contact form](/contact),<br>
 - <i class="fa fa-twitter"></i> [Twitter](https://twitter.com/s_bogdanovic), or <br>
