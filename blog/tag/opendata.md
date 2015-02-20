@@ -1,6 +1,6 @@
 ---
 layout: blog_by_tag
-title: 'Articles by tag: dataviz'
-tag: dataviz
-permalink: tag/dataviz/
+title: 'Articles by tag: opendata'
+tag: opendata
+permalink: tag/opendata/
 ---

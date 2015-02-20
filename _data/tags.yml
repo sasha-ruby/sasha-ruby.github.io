@@ -7,6 +7,9 @@
 - slug: dataviz
   name: Data visualizations
 
+- slug: opendata
+  name: Open data
+
 - slug: datamining
   name: Data mining
 

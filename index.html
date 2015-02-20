@@ -1,9 +1,5 @@
 ---
 layout: default
-sitemap:
-    priority: 0.7
-    changefreq: 'daily'
-    lastmod: 2015-01-09T12:49:30-05:00
 ---
 
 <div class="posts">
@@ -58,7 +54,7 @@ sitemap:
             <div class="th-container">
                 <img src="{{ post.thumbnailurl }}" class="th" />
             </div>
-            {{ post.content | truncatewords:50}}
+            {{ post.content | truncatewords:50 }}
         </div>
 
         <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"><i class="fa fa-plus-square-o"></i> Read More</a>

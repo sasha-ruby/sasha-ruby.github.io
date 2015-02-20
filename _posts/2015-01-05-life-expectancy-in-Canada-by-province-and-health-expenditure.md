@@ -4,7 +4,7 @@ title: Google Charts bindings for Shiny example - Life expectancy data visualiza
 description: Life expectancy in Canadian provinces by health expenditure data visualization
 thumbnailurl: /images/bubblewaltz_th.png
 category: articles
-tags: [Rstats, data-science, dataviz, shiny]
+tags: [Rstats, data-science, dataviz, shiny, opendata]
 published: true
 shortUrl: http://bit.ly/1Dwb8tE
 ---
