@@ -3,7 +3,7 @@ layout: post
 title: CODE 2015 - Canadian Open Data Experience
 thumbnailurl: /images/code2015_th.png
 category: news
-tags: [Rstats, data-science, opendata]
+tags: [data-science, opendata]
 published: true
 shortUrl: http://bit.ly/1AYAT4c
 ---
