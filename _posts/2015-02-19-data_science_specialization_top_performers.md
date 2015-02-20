@@ -1,21 +1,24 @@
 ---
 layout: post
-title: Coursera Data Science Specialization
-thumbnailurl: /images/certificate_th.png
+title: Data Science Specialization Top Performers
+thumbnailurl: /images/data_science_certificate_250.png
 category: news
 tags: [Rstats, data-science]
 published: true
-shortUrl: http://bit.ly/1y17uGQ
+shortUrl: 
 ---
 
-Since April 2014 I've been taking part in [Data Science Specialization](https://www.coursera.org/specialization/jhudatascience/1 "Data Science Specialization"), put together by Coursera and Johns Hopkins University.
+I am so honored to having been recognized as one of top performers in the largest data science program 
+in the world put together by Johns Hopkins Univeristy and 
+Coursera - [Data Science Specialization](https://www.coursera.org/specialization/jhudatascience/1 "Data Science Specialization").
 
-The specialization consists of nine courses that cover concepts and tools used in the entire scientific data analysis process, from asking the right questions to making statistical inferences and publishing results as data products or analysis reports.
+As such, I was on of the folks [profiled on Simply Statistics blog](http://simplystatistics.org/2015/02/05/johns-hopkins-data-science-specialization-top-performers/), 
+a widely read data science blog ran by [Jeff Leek](http://www.biostat.jhsph.edu/~jleek/research.html), 
+[Roger Peng](http://www.biostat.jhsph.edu/~rpeng/), and [Rafa Irizarry](http://rafalab.dfci.harvard.edu/).
 
-I passsed [all nine courses with distinction](https://www.coursera.org/user/i/1edc8d3ef9cd19db7707129ae7827eb7), and finalized the [Wordiction (word prediction) app](/apps/wordiction "Wordiction (word prediction) app") in the scope of Capstone project with maximum number of unadjusted points.
+I find this a huge succes, having in mind number of people enrolled in the classes.
 
-According to preliminary results (just received wrapup email from instructors):
+> Since April 2014 we have enrolled 1.76 million student and awarded 71,589 Signature Track verified certificates. The first capstone class ran in October - just 7 months after the first classes launched and 4 months after all classes were running. Despite this incredibly short time frame 917 students finished all 9 classes and enrolled in the Capstone Course. 478 successfully completed the course.
 
-> ...Since April, the specialization has accumulated more than 2.3 million enrollments and issued more than 68,000 verified certificates. More than 800 participants joined this capstone session, and it looks like nearly 500 will earn the specialization certificate this time around...
-
-Now it will take some time for the instructors and Coursera teams to calculate final grades and issue certificates. So looking forward to getting to know the results, and hopefully be one of those 500 obtaining the specialization certificate of this inaugural class.
+Big thanks to the instructors, community TAs, all other peers for their contributions in the forums,
+and Coursera for putting it all together and making it possible.
