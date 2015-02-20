@@ -5,7 +5,7 @@ thumbnailurl: /images/data_science_certificate_250.png
 category: news
 tags: [Rstats, data-science]
 published: true
-shortUrl: 
+shortUrl: http://bit.ly/1zTVa5t
 ---
 
 I am so honored to having been recognized as one of top performers in the largest data science program 
