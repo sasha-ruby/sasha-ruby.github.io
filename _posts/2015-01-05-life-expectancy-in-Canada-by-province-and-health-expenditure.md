@@ -22,7 +22,7 @@ an interesting [Google Charts bindings for Shiny](https://github.com/jcheng5/goo
 The result is "Life expectancy in Canadian Provinces by Health Expenditure" motion chart visualization 
 deployed on [Shiny server](http://shiny.rstudio.com/). Just click the play button at the right bottom of app window to start the visualization.
 
-<iframe src="http://opendata.rubyind.com:3838/opendata/" height="597" width="100%"></iframe>
+<iframe src="http://opendata.rubyind.com/" height="597" width="100%"></iframe>
 
 Shiny app code is available on [GitHub](https://github.com/sasha-ruby/healthexp).
 
