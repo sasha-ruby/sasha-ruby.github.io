@@ -3,7 +3,7 @@ layout: post
 title: English Premier League 2014-2015 Roundchart
 thumbnailurl: /images/epl-2014-2015-roundchart250.png
 category: news
-tags: [dataviz, sportstats]
+tags: [dataviz, sportstats, d3js]
 published: true
 shortUrl: http://bit.ly/1AYAT4c
 ---
