@@ -12,10 +12,12 @@ Co-founder, CTO and Data Scientist at [Ruby Industries Inc.](http://www.rubyind.
 
 ### More Information
 
-For the last 6 years I've been working in the iGaming industry with some of the major brands,
+Since 2009 I've been working in the iGaming industry with some of the major brands,
 helping iGaming businesses and their affiliate programs make better, data-driven decisions.
 
 I developed a number of data products, data integration solutions and intelligence reports to help them draw actionable insights from their data.
+
+I was profiled on Simply Statistic blog as on of the [top performers in Johns Hopkins Unversity and Coursera Data Science Specialization](http://simplystatistics.org/2015/02/05/johns-hopkins-data-science-specialization-top-performers/).
 
 I am the architect and lead developer of [Datapark - Business Intelligence reporting application](http://www.rubyind.com/datapark),
 which sort of summarizes my full-stack technical skills and experience:
@@ -34,7 +36,6 @@ which sort of summarizes my full-stack technical skills and experience:
    + Machine learning
    + Data mining
    + Natural language processing
-
 
 
 ### Contact me
