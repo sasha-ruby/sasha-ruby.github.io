@@ -14,7 +14,7 @@ Chelsea won its 4th title in season 2014/2015. This was 23rd season since Englis
 
 The following interactive chart shows teams positions round by round.
 
-<blockquote>You can hover over team names to highlight that specific team and how it was placed throughout the season.  You can also zoom in/out specific round by simply clicking that round column.</blockquote>
+> You can hover over team names to highlight that specific team and how it was placed throughout the season.  You can also zoom in/out specific round by simply clicking that round column.
     
 <style>
 text {
