@@ -8,16 +8,16 @@ published: true
 shortUrl: http://bit.ly/1AYAT4c
 ---
 
-![BC Tech Summit 2017](/images/756x195_BCTECH_Summit.png "BC TEch Summit 2017")
 
-### About BC Tech Summit
 I’m excited and honoured to be part of the [#BCTECH Summit](http://bctechsummit.ca/speakers/sasa-bogdanovic/)! 
-From March 14 – 15, more than 200 speakers will be sharing their knowledge and expertise on how tech 
+From March 14 – 15 in Vancouver. More than 200 speakers will be sharing their knowledge and expertise on how tech 
 is transforming the way we work, live and play. Curated sessions in 
 a cross-sector of industries will highlight just how tech adoption is 
 changing our economy and our lives.  The #BCTECH Summit offers something 
 for everyone whether you are seeking new capital, new markets or talent – check out 
 [bctechsummit.ca](http://bctechsummit.ca) to see the opportunities! 
+
+![BC Tech Summit 2017](/images/756x195_BCTECH_Summit.png "BC TEch Summit 2017")
 
 ### About my session
 I will be speaking at +The Data Visualization Challenge - Data Innovation in the BC Government+
