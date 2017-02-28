@@ -5,7 +5,7 @@ thumbnailurl: /images/250X208_BCTECH_Summit.png
 category: news
 tags: [data-science, opendata, dataviz, shiny]
 published: true
-shortUrl: http://bit.ly/1AYAT4c
+shortUrl: http://bit.ly/bctech2017
 ---
 
 I’m excited and honoured to be part of the [#BCTECH Summit](http://bctechsummit.ca/speakers/sasa-bogdanovic/) 
