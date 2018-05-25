@@ -43,14 +43,14 @@ footer-links:
 # disqus: sasabogdanovic
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-1350102-38
+# google_analytics: UA-1350102-38
 
 #
 # !! You don't need to change any of the configuration flags below !!
 #
 
 markdown: kramdown
-highlighter: rb-pygments
+highlighter: rouge
 permalink: /:title/
 
 # The release of Jekyll Now that you're using
@@ -62,7 +62,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
   - jemoji # Emoji please!
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
 

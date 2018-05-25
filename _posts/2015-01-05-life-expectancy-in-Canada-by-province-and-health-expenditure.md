@@ -9,7 +9,7 @@ published: true
 shortUrl: http://bit.ly/1Dwb8tE
 ---
 
-Canadian Government [Open Data portal](http://data.gc.ca/eng) is the source of huge volumne of 
+Canadian Government [Open Data portal](http://data.gc.ca/eng) is the source of huge volumne of
 publicly available datasets collected by various federal and provincial departments and agencies.
 
 In this post, I show how to acquire several datasets, clean up the data, and combine them into a
@@ -19,7 +19,7 @@ The clean dataset consists of two categorical variables (Year and Province), two
 and Life Expectancy as an outcome. Motion chart is an ideal candidate for data visualization. I came across
 an interesting [Google Charts bindings for Shiny](https://github.com/jcheng5/googleCharts) by Joe Cheng ([@jcheng5](https://twitter.com/jcheng)).
 
-The result is "Life expectancy in Canadian Provinces by Health Expenditure" motion chart visualization 
+The result is "Life expectancy in Canadian Provinces by Health Expenditure" motion chart visualization
 deployed on [Shiny server](http://shiny.rstudio.com/). Just click the play button at the right bottom of app window to start the visualization.
 
 <iframe src="http://opendata.rubyind.com/bubblewaltz" height="597" width="100%"></iframe>
@@ -30,12 +30,12 @@ The app has also been listed in [Goverment of Canada Open Data portal Apps Galle
 
 ## Data source
 
-The data is obtained from the following data tables to combine life expectancy, 
+The data is obtained from the following data tables to combine life expectancy,
 health expenditure and population by Province into a single data set for visualization:
 
-- [Table 051-0001](http://data.gc.ca/data/en/dataset/b6b9c9e7-bd58-4b2f-8a7a-97bf370a4880) - Estimates of population, 
+- [Table 051-0001](http://data.gc.ca/data/en/dataset/b6b9c9e7-bd58-4b2f-8a7a-97bf370a4880) - Estimates of population,
 by age group and sex for July 1, Canada, provinces and territories annual (persons)
-- [Table 102-0511](http://data.gc.ca/data/en/dataset/d33eca94-b40d-4d68-8027-842b56feb130) - Life expectancy, 
+- [Table 102-0511](http://data.gc.ca/data/en/dataset/d33eca94-b40d-4d68-8027-842b56feb130) - Life expectancy,
 abridged life table, at birth and at age 65, by sex, Canada, provinces and territories, *Terminated* annual (years)
 - [Table 384-0041](http://data.gc.ca/data/en/dataset/43d39e2b-63dc-499d-8e90-be3928374233) - Detailed household final consumption expenditure,
  provincial and territorial annual (dollars x 1,000,000)
@@ -253,21 +253,21 @@ ylim <- list(
 )
 
 shinyUI(fluidPage(
-    
+
     # This line loads the Google Charts JS library
     googleChartsInit(),
-    
+
     # Use the Google webfont "Source Sans Pro"
     tags$link(
         href=paste0("http://fonts.googleapis.com/css?",
             "family=Source+Sans+Pro:300,600,300italic"),
         rel="stylesheet", type="text/css"
     ),
-        
+
     tags$style(type="text/css",
         "body {font-family: Helvetica, Arial, 'Source Sans Pro'}"
     ),
-    
+
     googleBubbleChart("chart",
         width="100%", height = "475px",
         # Set the default options for this chart; they can be
@@ -299,7 +299,7 @@ shinyUI(fluidPage(
             ),
             # Set bubble visual props
             bubble = list(
-                opacity = 0.60, 
+                opacity = 0.60,
                 stroke = "none",
                 textStyle = list(
                     fontSize = 11
@@ -331,13 +331,13 @@ shinyUI(fluidPage(
             )
         )
     ),
-    
+
     fluidRow(
         shiny::column(4, offset = 4,
             sliderInput("year", "Year",
-                min = min(dataset$Year), 
+                min = min(dataset$Year),
                 max = max(dataset$Year),
-                value = min(dataset$Year), 
+                value = min(dataset$Year),
                 animate = TRUE
             )
         )
@@ -348,17 +348,17 @@ shinyUI(fluidPage(
 
 {% highlight R linenos %}
 shinyServer(function(input, output, session) {
-    
+
     # Provide explicit colors for regions, so they don't get recoded when the
     # different series happen to be ordered differently from year to year.
     # http://andrewgelman.com/2014/09/11/mysterious-shiny-things/
-    defaultColors <- c("#3366cc", "#dc3912", "#ff9900", "#109618", "#990099", "#0099c6", "#dd4477", 
+    defaultColors <- c("#3366cc", "#dc3912", "#ff9900", "#109618", "#990099", "#0099c6", "#dd4477",
                        "#3366cc", "#dc3912", "#ff9900", "#109618", "#990099", "#0099c6")
     series <- structure(
         lapply(defaultColors, function(color) { list(color=color) }),
         names = levels(dataset$Province)
     )
-    
+
     yearData <- reactive({
         # Filter to the desired year, and put the columns
         # in the order that Google's Bubble Chart expects
@@ -369,7 +369,7 @@ shinyServer(function(input, output, session) {
             filter(Year == input$year) %.%
             select(Province, Health.Expenditure, Life.Expectancy, NULL, Population)
     })
-    
+
     output$chart <- reactive({
         # Return the data and options
         list(
@@ -382,7 +382,7 @@ shinyServer(function(input, output, session) {
             )
         )
     })
-    
+
 })
 
 {% endhighlight %}
