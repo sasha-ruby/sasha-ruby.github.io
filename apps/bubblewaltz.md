@@ -9,7 +9,7 @@ sitemap:
     lastmod: 2015-01-09T12:49:30-05:00
 ---
 
-<iframe src="http://opendata.rubyind.com/bubblewaltz" height="597" width="100%"></iframe>
+<iframe src="https://sasha.shinyapps.io/health-expectancy/  " height="597" width="100%"></iframe>
 
 "Life expectancy in Canadian Provinces by Health Expenditure" motion chart visualization realized using 
 [Google charts bindings for Shiny](https://github.com/jcheng5/googleCharts) and 
